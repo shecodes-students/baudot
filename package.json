@@ -16,9 +16,13 @@
     "svg-builder": "0.0.3",
     "fragment": "^0.3.0"
   },
-  "browserify": { "transform": [ "brfs" ] },
+  "browserify": {
+    "transform": [
+      "ejsify"
+    ]
+  },
   "devDependencies": {
     "prova": "^1.14.2",
-    "brfs": "^1.2.0"
+    "ejsify": "^1.0.0"
   }
 }
